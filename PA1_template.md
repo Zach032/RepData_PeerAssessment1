@@ -133,10 +133,11 @@ ggplot(Total_Steps, aes(x = steps)) + geom_histogram(color = "white", fill = "bl
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+
 Estimate Type | Mean Steps | Median Steps
---- |--- | --- |
-With the NAs | 10766.19 | 10765
-Without the NAs filled by the Mean | 10751.74 | 10656
+--- | --- | ---
+Withw NAs | 10766.19 | 10765
+Without NAs filled by mean | 10766.19 | 10765
 
 ## Are there differences in activity patterns between weekdays and weekends?
 Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
